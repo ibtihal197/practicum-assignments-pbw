@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assignment 4/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Web with Bootstrap 5</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm"
+    style="background-color: #f5efe7">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/assignment 4/assets/images/heart.png" alt="" width="20">
+            Places
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+    <br>
+    <br>
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h3 class="display-6">FAMOUS PLACES IN PARIS</h3>
+        <h6 class="display-10">BY IBTIHAL QOMARIYYAH LUTHFIYYAH</h6>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Home -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="/assignment 4/assets/images/louvre.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Musee du Louvre</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, beatae.</p>
+                      <a href="#" class="btn" style="background-color:#DCB4A7">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="/assignment 4/assets/images/eifell.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Menara Eifell</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla.</p>
+                      <a href="#" class="btn" style="background-color:#DCB4A7">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="/assignment 4/assets/images/orsay.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Musée d’Orsay</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla.</p>
+                      <a href="#" class="btn" style="background-color: #DCB4A7">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img src="/assignment 4/assets/images/arc de triomphe.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Arc de Triomphe</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla.</p>
+                    <a href="#" class="btn" style="background-color:#DCB4A7">Read More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img src="/assignment 4/assets/images/seine river.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Seine River</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla.</p>
+                    <a href="#" class="btn" style="background-color:#DCB4A7">Read More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card">
+                  <img src="/assignment 4/assets/images/versailles.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Palace of Versailles</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla.</p>
+                    <a href="#" class="btn" style="background-color:#DCB4A7">Read More</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <!-- Akhir Home -->
+    <br>
+    <br>
+    <br>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Contact Me</h3>
+            <p>If you need help, please contact us via the form below</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3 mt-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+
+              <div class="mb-3">
+                <div class="row g-2">
+                  <div class="col">
+                    <label for="first-name" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="first-name" aria-describedby="first-name" placeholder="Enter Name">
+                  </div>
+                  <div class="col">
+                    <label for="last-name" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="last-name" aria-describedby="last-name" placeholder="Enter Name">
+                  </div>
+                </div>
+                
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
+              </div>
+              <button type="submit" class="btn mb-3" style="background-color:#DCB4A7">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>Created by Ibtihal Qomariyyah Luthfiyyah</p>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="/assignment 4/assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="/assignment 4/assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

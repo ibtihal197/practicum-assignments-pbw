@@ -1,0 +1,86 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.form-group label{
+    display: block;
+    margin: 20px 0 8px 5px;
+}
+
+form, input, textarea{
+    font-family: inherit;
+    font-size: initial;
+}
+
+.form-group input[type="text"],
+.form-group textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 0 10px 5px 5px;
+    border-radius: 5px;
+    border-width: 0.1px;
+    border: 0.1px solid #c5c5c5;
+}
+
+.form-group input[type="submit"]{
+    width: 75px;
+    padding: 7px;
+    margin: 20px 0 0 5px;
+    background-color: #2256ff;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.form-radio{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 30px;
+    margin-top: 8px;
+}
+
+.form-radio input{
+    display: none;
+}
+
+.formRadio{
+    margin: 20px 0 8px 5px;
+}
+
+.form-radio .form-span{
+    display: inlie-block;
+    width: 15px;
+    height: 15px;
+    background-color: #eee;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 50%; 
+}
+
+.form-radio:hover .form-span{
+    background-color: #ccc;
+}
+
+.form-radio input:checked + .form-span{
+    background-color: #2256ff;
+}
+
+.form-radio input:checked + .form-span:after{
+    content: "";
+    height: 7.5px;
+    width: 7.5px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
