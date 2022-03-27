@@ -1,0 +1,58 @@
+[
+    {
+        "airline": "Garuda Indonesia",
+        "origin": "Soekarno-Hatta (CGK)",
+        "destination": "Ngurah Rai (DPS)",
+        "ticket_price": "1000000",
+        "tax": 150000,
+        "total_price": 1150000
+    },
+    {
+        "airline": "Batik Air",
+        "origin": "Soekarno-Hatta (CGK)",
+        "destination": "Hasanuddin (UPG)",
+        "ticket_price": "1500000",
+        "tax": 135000,
+        "total_price": 1635000
+    },
+    {
+        "airline": "AirAsia Indonesia",
+        "origin": "Husein Sastranegara (BDO)",
+        "destination": "Sultan Iskandar Muda (BTJ)",
+        "ticket_price": "2000000",
+        "tax": 110000,
+        "total_price": 2110000
+    },
+    {
+        "airline": "Lion Air",
+        "origin": "Abdul Rachman Saleh (MLG)",
+        "destination": "Inanwatan (INX)",
+        "ticket_price": "2500000",
+        "tax": 130000,
+        "total_price": 2630000
+    },
+    {
+        "airline": "Citilink",
+        "origin": "Juanda (SUB)",
+        "destination": "Sultan Iskandar Muda (BTJ)",
+        "ticket_price": "3000000",
+        "tax": 90000,
+        "total_price": 3090000
+    },
+    {
+        "airline": "Sriwijaya Air",
+        "origin": "Abdul Rachman Saleh (MLG)",
+        "destination": "Sultan Iskandar Muda (BTJ)",
+        "ticket_price": "3500000",
+        "tax": 100000,
+        "total_price": 3600000
+    },
+    {
+        "airline": "Aviastar",
+        "origin": "Juanda (SUB)",
+        "destination": "Inanwatan (INX)",
+        "ticket_price": "4000000",
+        "tax": 120000,
+        "total_price": 4120000
+    }
+]
