@@ -1,0 +1,75 @@
+10{
+    "body": [
+        {
+            "id": "1",
+            "name": "Alwansyah",
+            "email": "alwansyah@gmail.com",
+            "designation": "Data Scientist",
+            "created": "2021-06-01 02:12:30"
+        },
+        {
+            "id": "2",
+            "name": "Raka",
+            "email": "raka@yahoo.com",
+            "designation": "Apparel Patternmaker",
+            "created": "2013-03-03 01:20:10"
+        },
+        {
+            "id": "3",
+            "name": "Sofi",
+            "email": "sofi@gmail.com",
+            "designation": "Accountant",
+            "created": "2014-09-20 03:10:25"
+        },
+        {
+            "id": "4",
+            "name": "Almira",
+            "email": "almira@yahoo.com",
+            "designation": "Shipping Manager",
+            "created": "2015-04-11 04:11:12"
+        },
+        {
+            "id": "5",
+            "name": "Husnul",
+            "email": "husnul@gmail.com",
+            "designation": "Chief Sustainability Officer",
+            "created": "2016-01-04 05:20:30"
+        },
+        {
+            "id": "6",
+            "name": "Bintang",
+            "email": "bintang@hotmail.com",
+            "designation": "Chemical Technician",
+            "created": "2017-01-10 06:40:10"
+        },
+        {
+            "id": "7",
+            "name": "Erwan",
+            "email": "erwan@yahoo.com",
+            "designation": "Transportation Planner",
+            "created": "2017-05-02 02:20:30"
+        },
+        {
+            "id": "8",
+            "name": "Latifah",
+            "email": "latifah@yahoo.com",
+            "designation": "Wind Energy Engineer",
+            "created": "2018-01-04 05:15:35"
+        },
+        {
+            "id": "9",
+            "name": "Nela",
+            "email": "nela@hotmail.com",
+            "designation": "Geneticist",
+            "created": "2019-01-02 02:20:30"
+        },
+        {
+            "id": "10",
+            "name": "Aji",
+            "email": "aji@hotmail.com",
+            "designation": "Space Sciences Teacher",
+            "created": "2020-02-01 06:22:50"
+        }
+    ],
+    "itemCount": 10
+}
